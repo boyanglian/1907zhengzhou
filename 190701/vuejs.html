@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vuejs</title>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- 生产环境版本，优化了尺寸和速度 -->
+    <!--    <script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+</head>
+<body>
+<div id="app">{{message}}</div>
+<div id="app-2">
+    <!--    v-bind 特性被称为指令。指令带有前缀 v-，以表示它们是 Vue 提供的特殊特性-->
+    <!--    该指令的意思是：“将这个元素节点的 title 特性和 Vue 实例的 message 属性保持一致”-->
+    <span v-bind:title="message">鼠标悬停几秒钟查看此处动态绑定的提示信息！</span>
+</div>
+<div id="app-3">
+    <p v-if="seen">现在你看到我了</p>
+</div>
+<div id="app-4">
+    <ol>
+        <li v-for="todo in todos">{{todo.text}}</li>
+    </ol>
+</div>
+
+<div id="app-5">
+    <p>{{message}}</p>
+    <button v-on:click="reverseMessage">逆转消息</button>
+</div>
+
+<div id="app-6">
+    <p>{{message}}</p>
+<!--    v-model 指令，它能轻松实现表单输入和应用状态之间的双向绑定。-->
+    <input v-model="message">
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        }
+    })
+
+    var app2 = new Vue({
+        el: '#app-2',
+        data: {
+            message: '页面加载于' + new Date().toLocaleString()
+        }
+    })
+
+    var app3 = new Vue({
+        el: '#app-3',
+        data: {
+            // 继续在控制台输入 app3.seen = false，你会发现之前显示的消息消失了。
+            seen: true
+        }
+    })
+
+    var app4 = new Vue({
+        el: '#app-4',
+        data: {
+            todos: [
+                {text: '学习 JavaScript'},
+                {text: '学习 Vue'},
+                {text: '整个牛项目'},
+                // 在控制台里，输入 app4.todos.push({ text: '新项目' })，你会发现列表最后添加了一个新项目。
+            ]
+        }
+    })
+
+    var app5 = new Vue({
+        el: '#app-5',
+        data: {
+            message: 'Hello Vue.js!'
+        },
+        methods: {
+            reverseMessage: function () {
+                // this.message = this.message.split('') // [ "H", "e", "l", "l", "o", " ", "V", "u", "e", ".", "j", "s", "!" ]
+                // this.message = this.message.split('').reverse() // [ "!", "s", "j", ".", "e", "u", "V", " ", "o", "l", "l", "e", "H" ]
+                this.message = this.message.split('').reverse().join('') // !sj.euV olleH
+            }
+        }
+    })
+
+    var app6 = new Vue({
+        el: '#app-6',
+        data: {
+            message: 'Hello Vue!'
+        }
+    })
+</script>
+</body>
+</html>
