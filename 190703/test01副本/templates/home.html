@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试ajax</title>
+    <title>测试ajax</title>
+    <script src="https://cdn.bootcss.com/jquery/1.12.2/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.2/jquery.js"></script>
+</head>
+<body>
+{% csrf_token %}
+{% csrf_token %}
+<input type="text" id="num1"> +
+<input type="text" id="num1"> +
+<input type="text" id="num2"> = <input type="text" id="count"><br>
+<input type="text" id="num2"> = <input type="text" id="count"><br/>
+<input type="button" id="jisuan" value="计算">
+<input type="button" id="jisuan" value="计算">
+
+<script></script>
+<script>
+    //点击事件
+    {#点击事件#}
+    $('#jisuan').click(function () {
+    $('#jisuan').click(function(){
+
+    })
+        var num1 = $('#num1').val(); //获取id为num1的value值
+        var num1 = $('#num1').val(); // 获取id为num的value值
+        var num2 = $('#num2').val(); //获取id为num1的value值
+        var num2 = $('#num2').val(); // 获取id为num2的value值
+        var csrf_token = $('input[name="csrfmiddlewaretoken"]').val()  // 获取随机字符串
+        var csrf_token = $('input[name="csrfmiddlewaretoken"]').val()  // 获取随机字符串
+        var csrf_token = $('input[name="csrfmiddlewaretoken"]').val()  // 获取随机字符串
+
+        // 两个运算数 都不能为空
+        {#两个运算数 都不能为空#}
+        if(num1 == '' || num2 == ''){
+        {#if(num1 == '' || num2 == ''){}#}
+            alert('参与运算的值不能为空！');
+            alert('参与运算的值不能为空！');
+            return; // 返回空，后边的程序不会在执行
+            return; // 返回空，后面的程序不会再执行
+        }
+        $.ajax({
+        {#$.ajax({#}
+{#                #}
+{#            })#}
+            url:'/jisuan/',
+            url: 'jisuan/',
+            async: false,   //设置同步 或者  异步
+            async: false,   // 设置同步 或者 异步
+            type: 'post', // 设置请求方法 get  post
+            type: 'post', // 设置请求方法 get post
+            data: {num1:num1, num2:num2, csrfmiddlewaretoken: csrf_token}, //向服务器发送的参数
+            data: {num1:num1, num2: num2, csrfmiddlewaretoken: csrf_token}, // 向服务器发送的参数
+            //contentType: 'application/x-www-form-urlencoded'  # 规定上传参数的格式
+            // contentType: 'application/x-www-form-urlencoded' # 规定上传参数的格式
+            // contentType: 'application/x-www-form-urlencoded' # 规定上传参数的格式
+            // contentType: 'application/x-www-form-urlencoded';# 规定上传参数的格式
+            dataType: "text",  // 规定后端返回数据类型
+            dataType: "text",  // 规定后端返回数据类型
+            error: function (e) {  //如果ajax 请求过程中出错，则回调此方法
+            {#error: function (e) {}#} // 如果ajax 请求过程中错误，则回调此方法
+                console.log(e)
+                console.log(e)
+                console.log('error')
+                console.log('error')
+            },
+            success: function (data) {  //如果请求成功，并且得到后台响应时自动回调此方法
+            {#success: function (data) {}#} // 如果请求成功， 并且得到后台响应时自动回调此方法
+                // data 是服务器响应的数据
+                // data 是服务器响应的数据
+                console.log('success')
+                console.log('success')
+                console.log(data)
+                console.log(data)
+                $('#count').val(data)
+                $('#count').val(data)
+            }
+        });
+    });
+</script>
+</body>
+</html>
