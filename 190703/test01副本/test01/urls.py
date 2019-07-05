@@ -21,6 +21,8 @@ from app01.views import *
 from app01.views import *
 from app02 import views
 from app02 import views
+from app02 import views
+
 
 urlpatterns = [
 # urlpatterns=[]
@@ -35,5 +37,6 @@ urlpatterns = [
     path('jisuan/',jisuan),
     path('upload/', upload),
     path('upload/', upload),
+    path('login/', views.login),
     path('login/', views.login),
 ]

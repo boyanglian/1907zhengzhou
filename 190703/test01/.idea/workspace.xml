@@ -2,55 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ce7222-947f-48bb-94dd-a9148e66ff6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/css/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/css/gbook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/css/link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/css/m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/css/share.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/b01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/b03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/b04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/b05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/b06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/banner01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/banner02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/banner03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/mb08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/newsbg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/newsbg04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/posttime.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/t01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/t02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/images/wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/js/jquery.easyfader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/static/js/scrollReveal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/templates/gbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/templates/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/templates/share.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myTest/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test01副本/.idea/libraries/R_User_Library.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/text1/1.html" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/text1/text1.git/HEAD" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/text1/text1.git/config" beforeDir="false" />
@@ -67,6 +18,7 @@
       <change beforePath="$USER_HOME$/Desktop/text1/text1.git/hooks/prepare-commit-msg.sample" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/text1/text1.git/hooks/update.sample" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/text1/text1.git/info/exclude" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../190703.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="342">
               <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -118,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app02/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="285">
               <caret line="15" column="31" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -215,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,7 +205,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,16 +301,17 @@
       <workItem from="1562161572806" duration="1116000" />
       <workItem from="1562164378851" duration="306000" />
       <workItem from="1562197950438" duration="621000" />
+      <workItem from="1562199138975" duration="742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25751000" />
+    <option name="totallyTimeSpent" value="26493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="23" width="1885" height="1057" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.27986908" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.28368795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5024155" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,7 +325,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="manage.py@test01" order="10" weight="0.32901135" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32901135" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -428,7 +381,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="342">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
@@ -438,7 +391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app02/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="285">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -446,10 +399,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -464,23 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
