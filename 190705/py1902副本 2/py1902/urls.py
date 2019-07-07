@@ -21,7 +21,7 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     # path('admin/', include('manager.urls')),
     # 登录
-    path('admin/login/', admin.login),
+    path('admin/login/', admin.login),   # adminn admin888
     path('admin/logOut/', admin.logOut),
     path('verify/', admin.get_verify),
 

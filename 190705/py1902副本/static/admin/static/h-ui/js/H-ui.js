@@ -4479,9 +4479,18 @@ function displaynavbar(obj){
 						}
 					} else {
 						that.find(options.mainCell).slideUp(options.speed);
+						that.find(options.mainCell).slideUp(options.speed);
 						// 获取当前浏览器的请求的URI
 						current_uri = document.location.pathname
+						current_uri = document.location.pathname
 						// 获取后台左侧菜单的所有a标签
+						that.find('a').each(function () {
+							$(this).parent('li').removeClass('current')
+							uri = $(this).attr('href')
+							if (current_uri == uri){
+								$(this).parent('li').addClass('current')
+							}
+						})
 						that.find('a').each(function(){
 							// 移除指定标签的class
 							$(this).parent('li').removeClass('current')
